@@ -79,3 +79,7 @@ export default App;
 ### 1.0.0
 
 - editable-dnd-list is made publicly available
+
+### 1.0.1
+
+- Fixed bug related to missing assets in lib

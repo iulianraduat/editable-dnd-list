@@ -1,6 +1,6 @@
 {
   "name": "editable-dnd-list",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An editable DnD list.",
   "main": "lib/index.js",
   "sideEffects": false,
