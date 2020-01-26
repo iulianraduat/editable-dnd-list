@@ -1,6 +1,6 @@
 {
   "name": "editable-dnd-list",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "An editable DnD list.",
   "main": "lib/index.js",
   "sideEffects": false,
@@ -35,7 +35,7 @@
   "homepage": "https://github.com/iulian-radu-at/editable-dnd-list#readme",
   "dependencies": {
     "@material-ui/core": "^4.9.0",
-    "generic-dnd-list": "^1.0.0"
+    "generic-dnd-list": "^1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",

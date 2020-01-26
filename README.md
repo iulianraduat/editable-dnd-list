@@ -30,6 +30,7 @@ You can access the storybook for this component [here](https://iulian-radu-at.gi
 |-----------------------:|:------:|
 |                  1.0.x | 16.8.0 |
 |                  1.1.x | 16.8.0 |
+|                  1.2.x | 16.8.0 |
 
 ### About versioning schema used for EditableDndList
 
@@ -86,5 +87,9 @@ export default App;
 - Fixed bug related to missing assets in lib
 
 ### 1.1.0
+
+- Updated packages
+
+### 1.2.0
 
 - Updated packages
