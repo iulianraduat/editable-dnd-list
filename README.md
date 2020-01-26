@@ -29,6 +29,7 @@ You can access the storybook for this component [here](https://iulian-radu-at.gi
 | EditableDndList _uses_ | React  |
 |-----------------------:|:------:|
 |                  1.0.x | 16.8.0 |
+|                  1.1.x | 16.8.0 |
 
 ### About versioning schema used for EditableDndList
 
@@ -83,3 +84,7 @@ export default App;
 ### 1.0.1
 
 - Fixed bug related to missing assets in lib
+
+### 1.1.0
+
+- Updated packages
