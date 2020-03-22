@@ -9,7 +9,8 @@
     "deploy": "cross-env NODE_ENV=production yarn build && yarn publish --non-interactive",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -c storybook",
-    "build-storybook": "build-storybook -c storybook -o docs && git commit -a -m \"Updated storybook\""
+    "build-storybook": "build-storybook -c storybook -o docs",
+    "commit-storybook": "git add . && git commit -m \"Updated storybook\""
   },
   "repository": {
     "type": "git",
