@@ -11,14 +11,14 @@ You can access the storybook for this component [here](https://iulian-radu-at.gi
 ## Props
 
 | Name     | Type                    | Required | Default | Description                                                     |
-|----------|-------------------------|----------|---------|-----------------------------------------------------------------|
+| -------- | ----------------------- | -------- | ------- | --------------------------------------------------------------- |
 | items    | Task[]                  | no       | []      | The initial list of items                                       |
 | onChange | (items: Task[]) => void | yes      | -       | The function called when there are changes in the list of items |
 
 ## Props of Task
 
 | Name | Type   | Required | Default | Description                    |
-|------|--------|----------|---------|--------------------------------|
+| ---- | ------ | -------- | ------- | ------------------------------ |
 | id   | string | yes      | -       | The unique if of the item      |
 | text | string | yes      | -       | The text representing the item |
 
@@ -27,7 +27,7 @@ You can access the storybook for this component [here](https://iulian-radu-at.gi
 ## Versions
 
 | EditableDndList _uses_ | React  |
-|-----------------------:|:------:|
+| ---------------------: | :----: |
 |                  1.0.x | 16.8.0 |
 |                  1.1.x | 16.8.0 |
 |                  1.2.x | 16.8.0 |
@@ -93,3 +93,8 @@ export default App;
 ### 1.2.0
 
 - Updated packages
+
+### 1.2.1
+
+- Updated packages
+- Moved from npm to yarn
