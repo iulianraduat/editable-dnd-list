@@ -1,6 +1,6 @@
 {
   "name": "editable-dnd-list",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "An editable DnD list.",
   "main": "lib/index.js",
   "sideEffects": false,
@@ -36,7 +36,7 @@
   "homepage": "https://github.com/iulian-radu-at/editable-dnd-list#readme",
   "dependencies": {
     "@material-ui/core": "^4.9.7",
-    "generic-dnd-list": "^1.1.0"
+    "generic-dnd-list": "^1.1.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -44,12 +44,12 @@
     "@types/babel-core": "^6.25.6",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
-    "@types/react": "^16.9.25",
+    "@types/react": "^16.9.26",
     "@types/react-dom": "^16.9.5",
     "@types/rimraf": "^3.0.0",
     "@types/storybook__react": "^5.2.1",
     "babel-core": "^6.26.3",
-    "babel-jest": "^25.1.0",
+    "babel-jest": "^25.2.3",
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
     "cross-env": "^7.0.2",
@@ -61,6 +61,9 @@
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
+  },
+  "resolutions": {
+    "@types/react": "^16.9.26"
   },
   "jest": {
     "modulePathIgnorePatterns": [

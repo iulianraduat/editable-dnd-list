@@ -1,4 +1,4 @@
-# editable-dnd-list
+# editable-dnd-list ![Weekly downloads](https://img.shields.io/npm/dw/editable-dnd-list 'Weekly downloads')
 
 An editable DnD list.
 
@@ -98,3 +98,7 @@ export default App;
 
 - Updated packages
 - Moved from npm to yarn
+
+### 1.2.2
+
+- Updated packages
