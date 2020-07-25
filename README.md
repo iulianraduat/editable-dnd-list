@@ -26,11 +26,12 @@ You can access the storybook for this component [here](https://iulian-radu-at.gi
 
 ## Versions
 
-| EditableDndList _uses_ | React  |
-| ---------------------: | :----: |
-|                  1.0.x | 16.8.0 |
-|                  1.1.x | 16.8.0 |
-|                  1.2.x | 16.8.0 |
+| EditableDndList _uses_ | Material-ui | React  |
+| ---------------------: | :---------: | :----: |
+|                  1.0.x |             | 16.8.0 |
+|                  1.1.x |             | 16.8.0 |
+|                  1.2.x |   4.10.12   | 16.8.0 |
+|                  1.3.x |   4.11.0    | 16.8.0 |
 
 ### About versioning schema used for EditableDndList
 
@@ -104,5 +105,9 @@ export default App;
 - Updated packages
 
 ### 1.2.3
+
+- Updated packages
+
+### 1.3.0
 
 - Updated packages
