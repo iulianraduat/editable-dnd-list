@@ -111,3 +111,7 @@ export default App;
 ### 1.3.0
 
 - Updated packages
+
+### 1.3.1
+
+- Fixed crash produced by "export \* from"

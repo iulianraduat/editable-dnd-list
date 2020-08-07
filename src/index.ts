@@ -1,1 +1,1 @@
-export * from './EditableDndList';
+export { default, Task } from "./EditableDndList";
