@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/iulian-radu-at/editable-dnd-list#readme",
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
+    "@material-ui/core": "^4.11.3",
     "generic-dnd-list": "^2.1.1"
   },
   "devDependencies": {
