@@ -1,4 +1,4 @@
-# editable-dnd-list ![Weekly downloads](https://img.shields.io/npm/dw/editable-dnd-list "Weekly downloads")
+# editable-dnd-list ![Weekly downloads](https://img.shields.io/npm/dw/editable-dnd-list 'Weekly downloads')
 
 An editable DnD list.
 
@@ -26,12 +26,13 @@ You can access the storybook for this component [here](https://iulian-radu-at.gi
 
 ## Versions
 
-| EditableDndList _uses_ | Material-ui | React  |
-| ---------------------: | :---------: | :----: |
-|                  1.0.x |             | 16.8.0 |
-|                  1.1.x |             | 16.8.0 |
-|                  1.2.x |   4.10.12   | 16.8.0 |
-|                  1.3.x |   4.11.0    | 16.8.0 |
+| EditableDndList _uses_ | Material-ui |      React       |
+| ---------------------: | :---------: | :--------------: |
+|                  1.0.x |             |      16.8.0      |
+|                  1.1.x |             |      16.8.0      |
+|                  1.2.x |   4.10.12   |      16.8.0      |
+|                  1.3.x |   4.11.0    |      16.8.0      |
+|                  1.4.x |   4.11.3    | 16.9.0 or 17.0.0 |
 
 ### About versioning schema used for EditableDndList
 
@@ -115,3 +116,8 @@ export default App;
 ### 1.3.1
 
 - Fixed crash produced by "export \* from"
+
+### 1.4.0
+
+- Accepting React 17 as peerDependencies
+- Fixed security warnings
