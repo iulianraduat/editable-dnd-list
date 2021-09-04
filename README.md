@@ -33,6 +33,7 @@ You can access the storybook for this component [here](https://iulian-radu-at.gi
 |                  1.2.x |   4.10.12   |      16.8.0      |
 |                  1.3.x |   4.11.0    |      16.8.0      |
 |                  1.4.x |   4.11.3    | 16.9.0 or 17.0.0 |
+|                  1.5.x |   4.12.3    | 16.9.0 or 17.0.0 |
 
 ### About versioning schema used for EditableDndList
 
@@ -121,3 +122,7 @@ export default App;
 
 - Accepting React 17 as peerDependencies
 - Fixed security warnings
+
+### 1.5.0
+
+- Updated the packages
