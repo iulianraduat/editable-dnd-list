@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export interface EditableDndListProps extends React.Props<EditableDndList> {
+export interface EditableDndListProps {
   items?: Task[];
   onChange: (items: Task[]) => void;
 }

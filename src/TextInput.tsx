@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { TextField } from '@material-ui/core';
+import { TextField } from '@mui/material';
 
 interface TextInputProps {
   onChange: (text: string) => void;
@@ -9,7 +9,13 @@ interface TextInputProps {
   text?: string;
 }
 
-const TextInput: React.FC<TextInputProps> = ({ onChange, onEnter, onEscape, placeholder, text }) => {
+const TextInput: React.FC<TextInputProps> = ({
+  onChange,
+  onEnter,
+  onEscape,
+  placeholder,
+  text,
+}) => {
   const handleChange = React.useCallback(
     (e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>) => {
       onChange(e.target.value);
@@ -31,7 +37,13 @@ const TextInput: React.FC<TextInputProps> = ({ onChange, onEnter, onEscape, plac
   };
 
   return (
-    <TextField value={text} placeholder={placeholder} onChange={handleChange} onKeyUp={handleKeyUp} fullWidth={true} />
+    <TextField
+      value={text}
+      placeholder={placeholder}
+      onChange={handleChange}
+      onKeyUp={handleKeyUp}
+      fullWidth={true}
+    />
   );
 };
 

@@ -34,6 +34,7 @@ You can access the storybook for this component [here](https://iulian-radu-at.gi
 |                  1.3.x |   4.11.0    |      16.8.0      |
 |                  1.4.x |   4.11.3    | 16.9.0 or 17.0.0 |
 |                  1.5.x |   4.12.3    | 16.9.0 or 17.0.0 |
+|                  2.0.x |   5.10.17   |     >=18.0.0     |
 
 ### About versioning schema used for EditableDndList
 
@@ -126,3 +127,8 @@ export default App;
 ### 1.5.0
 
 - Updated the packages
+
+### 2.0.0
+
+- Migrated to material-ui 5
+- Supports minimum React 18
